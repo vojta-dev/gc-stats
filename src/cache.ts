@@ -1,9 +1,9 @@
 export function getHtml(stats: { chart: Chart }): string {
-  let html = '<div style="margin-bottom: 1rem;">';
+  let html = '<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1rem;">';
 
   html += getChartHtml(stats.chart);
 
-  html += '<div style="text-align: right;"><small><a href="https://gcstats.vercel.app" style="color: #1d4ed8;">gcstats</a></small></div>';
+  html += '<small><a href="https://gcstats.vercel.app" style="color: #1d4ed8;">gcstats</a></small>';
 
   html += '</div>';
 
