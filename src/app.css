@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
